@@ -1,5 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#landing-page-component {
+    width: 700px;
+    height: 938px;
+    border: 12.5px solid lightblue;
+}
+
+#header {
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading-links {
+    display: flex;
+    gap: 10px;
+}
+
+.heading-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+#sign-up {
+    display: flex;
+    margin-top: 50px;
+}
+
+#heading-icon {
+    font-size: 24px;
+}
+
+#sign-up-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#sign-up-description {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading-sign-up-button {
+    background-color: #3882F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    border-radius: 0.5em;
+}
+
+#heading-image {
+    width: 300px;
+}
+
+#under-header {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: white;
+}
+
+#section-2-title {
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#section-2-images {
+    display: flex;
+    gap: 50px;
+}
+
+.section-2-image {
+    width: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 1em;
+}
+
+.section-2-image-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+#section-3 {
+    background-color: #E5E7EB;
+    padding: 50px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+}
+
+#section-4-text {
+    background-color: #3882F6;
+    padding: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-4-title {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
